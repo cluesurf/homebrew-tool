@@ -8,7 +8,7 @@
 
 <h3 align='center'>@cluesurf/homebrew-tool</h3>
 <p align='center'>
-  ClueSurf Homebrew things
+  ClueSurf Homebrew Tools
 </p>
 
 <br/>
