@@ -9,7 +9,7 @@ cask "rock" do
   # release — the URL self-updates from there. The published
   # artifact is a zipped Rock.app from `electron-builder
   # --mac` uploaded to GitHub Releases.
-  url "https://github.com/cluesurf/rock/releases/download/v0.1.2/Rock-0.1.2-arm64-mac.zip"
+  url "https://github.com/cluesurf/rock/releases/download/v0.1.4/Rock-0.1.4-arm64-mac.zip"
 
   # ship.sh rewrites this hash on every release. :no_check
   # is the initial value before the script has run.
@@ -19,7 +19,7 @@ cask "rock" do
   # to look for new versions. Uses the GitHub Releases tag
   # list as the source of truth.
   livecheck do
-    url "https://github.com/cluesurf/rock/releases/download/v0.1.2/Rock-0.1.2-arm64-mac.zip"
+    url "https://github.com/cluesurf/rock/releases/download/v0.1.4/Rock-0.1.4-arm64-mac.zip"
     strategy :github_latest
   end
 
