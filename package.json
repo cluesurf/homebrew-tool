@@ -3,7 +3,8 @@
   "scripts": {
     "load:make": "brew install --cask ./Casks/task.rb",
     "link:brew": "ln -s $(pwd) `brew --repo`/Library/Taps/cluesurf",
-    "sync:rock": "tsx task/sync-rock.ts"
+    "sync:rock": "tsx task/sync-rock.ts",
+    "sync:term": "tsx task/sync-term.ts"
   },
   "devDependencies": {
     "@types/lodash": "4.17.23",

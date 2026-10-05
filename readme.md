@@ -27,6 +27,7 @@ brew tap cluesurf/tool
 | ------------------------------- | ---------------------------------------------------------------- | ---------------------------------------- |
 | [`task`](./Tool/task/readme.md) | Native tool catalog for `@cluesurf/task` (~100 formulas + casks) | `brew install --cask cluesurf/tool/task` |
 | [`rock`](./Tool/rock/readme.md) | Rock.app — headless, hackable terminal workspace                 | `brew install --cask cluesurf/tool/rock` |
+| [`term`](./Tool/term/readme.md) | The Term language: compiler, package manager and toolchain       | `brew install cluesurf/tool/term`        |
 
 See each cask's readme for install + usage details.
 
@@ -36,11 +37,4 @@ MIT
 
 ## ClueSurf
 
-Made by [ClueSurf](https://clue.surf), meditating on the universe ¤.
-Follow the work on [YouTube](https://youtube.com/@cluesurf),
-[X](https://x.com/cluesurf),
-[Instagram](https://instagram.com/cluesurf),
-[Substack](https://cluesurf.substack.com),
-[Facebook](https://facebook.com/cluesurf), and
-[LinkedIn](https://linkedin.com/company/cluesurf), and browse more of
-our open-source work here on [GitHub](https://github.com/cluesurf).
+Made by [ClueSurf](https://clue.surf), meditating on the universe.
