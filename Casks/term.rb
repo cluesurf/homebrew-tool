@@ -5,17 +5,17 @@ cask "term" do
 
   # `pnpm sync:term` rewrites `version` and the digests below from the
   # release on GHCR. Nothing else here changes between releases.
-  version "2.8.2"
+  version "2.9.2"
 
   # One release layer per platform, published by `pnpm term:release`
   # to ghcr.io/cluesurf/term/code. A layer's OCI digest IS the sha256 of
   # the tarball, so the same value is both the download address and the
   # checksum Homebrew verifies. Generated: keep the keys as they are.
   digests = {
-    "darwin-arm64" => "d7db7a8c4feac70e253ef23b566db117fe68f865b5a3d0d45de3e7b8fca7ec61",
-    "darwin-x64"   => "56e06a84023de25496b2a9f7c425e85fe1d8e0a133a9cb88f7922fd485af49f1",
-    "linux-arm64"  => "14a708520e0f75a620391fcfa92c25be518bb23a0b3a0621bb2a18104a6a0113",
-    "linux-x64"    => "ea8b8850ed88f6bdd3909c1232b21db09b01c606e27b49348ed216e6011faf60",
+    "darwin-arm64" => "81d44812bb8ffb00717e4a24bed80618755542cd57ff7133409361dd906e4ffe",
+    "darwin-x64"   => "16e1ea049143c09483b7cbcc7d3f9bc000f368ac7f094d57fe3a214a2082bca2",
+    "linux-arm64"  => "aadb0a947e3860cd716e8d7f2c3246a6341ddd1a083bd22c6ee6374c2661db4f",
+    "linux-x64"    => "0795a0cfc0193eeb24e4ac5370f96e8bbc3c5b127e7e6451079426b5f7d740b3",
   }
 
   arch arm: "arm64", intel: "x64"
